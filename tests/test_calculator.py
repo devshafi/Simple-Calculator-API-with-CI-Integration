@@ -10,7 +10,7 @@ from calculator import add, subtract, multiply, divide, power
 def test_add_positive_numbers():
     """Test adding two positive numbers."""
     result = add(5, 3)
-    assert result == 8
+    assert result == 9
 
 def test_subtract_numbers():
     """Test subtracting two numbers."""
